@@ -1,0 +1,1 @@
+SELECT * FROM simple_company.user_roles;
