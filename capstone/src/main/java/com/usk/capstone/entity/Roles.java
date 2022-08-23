@@ -1,4 +1,4 @@
-package com.usk.capstone.entity;
+/*package com.usk.capstone.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -21,8 +21,8 @@ public class Roles {
 	@Column(name = "role_id")
 	private int roleId;
 	
-	@Column(name = "role_name")
-	private String roleName;
+	@Column(name = "user_id")
+	private String userId;
 	
 	public int roleId() {
 		return roleId;
@@ -32,11 +32,12 @@ public class Roles {
 		this.roleId = roleId;
 	}
 	
-	public String getRoleName() {
-		return roleName;
+	public String getUserId() {
+		return userId;
 	}
 	
-	public void setRoleName(String roleName) {
-		this.roleName = roleName;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 }
+*/

@@ -31,7 +31,7 @@ public class User {
 	private String email;
 	
 	@Column(name = "username")
-	private String userName;
+	private String username;
 	
 	@Column(name = "password")
 	private String password;
@@ -55,7 +55,7 @@ public class User {
 		this.firstName = firstName;
 	}
 	
-	public String getLasttName() {
+	public String getLastName() {
 		return lastName;
 	}
 	
@@ -72,11 +72,11 @@ public class User {
 	}
 	
 	public String getUsername() {
-		return userName;
+		return username;
 	}
 	
-	public void setUsername(String userName) {
-		this.userName = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	
 	public String getPassword() {
